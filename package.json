@@ -1,0 +1,32 @@
+{
+  "name": "adonis-dynamic-model",
+  "version": "0.1.0",
+  "description": "Generate dynamic lucid models from config in AdonisJs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "pretest": "npm run lint",
+    "test": "japa"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-framework",
+    "lucid",
+    "mongodb"
+  ],
+  "author": "wxs77577",
+  "license": "MIT",
+  "devDependencies": {
+    "@adonisjs/fold": "^4.0.8",
+    "@adonisjs/sink": "^1.0.13",
+    "japa": "^1.0.5",
+    "japa-cli": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": [
+      "use"
+    ]
+  }
+}
